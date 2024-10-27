@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../expense-backend"
+		},
+		{
+			"path": "../../expense-frontend"
+		},
+		{
+			"path": ".."
+		}
+	]
+}
