@@ -16,10 +16,13 @@ def call() {
         stage('code checkout'){}
         stage('code compile'){}
         stage('code test cases'){}
+        }
     }
 }
 
-}
+
+
+
 
 
 ////
