@@ -12,9 +12,14 @@ def call() {
         stage('code test cases'){}
         stage('code integration test cases'){}        
         }
-        else
+        else {
         stage('code checkout'){}
         stage('code compile'){}
         stage('code test cases'){}
     }
 }
+
+}
+
+
+////
