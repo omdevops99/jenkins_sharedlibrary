@@ -1,38 +1,9 @@
 def call() {
-pipeline {
-   agent any 
-   stages {
-
-      stage('compile') {
-         steps {
-            echo 'compile'
-         } 
-      }
-
-      stage('testcases') {
-         steps {
-            echo 'testcases'
-         } 
-      }
-
-      stage('integration test cases') {
-         steps {
-            echo 'integration test cases'
-         } 
-      }
-
-      stage('build') {
-         steps {
-            echo 'build'
-         } 
-      }
-
-      stage('Release App') {
-         steps {
-            echo 'Release'
-         } 
-      }
-   }
-}
-
+    node {
+        stage('code compile'){}
+        stage('code checkout'){}
+        stage('code Build'){}
+        stage('code test cases'){}
+        stage('code integration test cases'){}
+    }
 }
